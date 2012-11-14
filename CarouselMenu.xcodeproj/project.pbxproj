@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6B885E416532D8000AE9434 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B885E316532D8000AE9434 /* UIKit.framework */; };
+		B6B885E616532D8000AE9434 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B885E516532D8000AE9434 /* Foundation.framework */; };
+		B6B885E816532D8000AE9434 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B885E716532D8000AE9434 /* CoreGraphics.framework */; };
+		B6B885EE16532D8100AE9434 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6B885EC16532D8100AE9434 /* InfoPlist.strings */; };
+		B6B885F016532D8100AE9434 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B885EF16532D8100AE9434 /* main.m */; };
+		B6B885F416532D8100AE9434 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B885F316532D8100AE9434 /* AppDelegate.m */; };
+		B6B885F616532D8100AE9434 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B885F516532D8100AE9434 /* Default.png */; };
+		B6B885F816532D8100AE9434 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B885F716532D8100AE9434 /* Default@2x.png */; };
+		B6B885FA16532D8100AE9434 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B885F916532D8100AE9434 /* Default-568h@2x.png */; };
+		B6B885FD16532D8100AE9434 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B885FB16532D8100AE9434 /* MainStoryboard_iPhone.storyboard */; };
+		B6B8860016532D8100AE9434 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B885FE16532D8100AE9434 /* MainStoryboard_iPad.storyboard */; };
+		B6B8860316532D8100AE9434 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B8860216532D8100AE9434 /* ViewController.m */; };
+		B6B8860E16532DBE00AE9434 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B8860D16532DBE00AE9434 /* QuartzCore.framework */; };
+		B6B8860F16532DCA00AE9434 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B8860C16532DAD00AE9434 /* iCarousel.m */; };
+		B6B886111653320A00AE9434 /* page.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B886101653320A00AE9434 /* page.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6B885DF16532D8000AE9434 /* CarouselMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarouselMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B885E316532D8000AE9434 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6B885E516532D8000AE9434 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6B885E716532D8000AE9434 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6B885EB16532D8100AE9434 /* CarouselMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarouselMenu-Info.plist"; sourceTree = "<group>"; };
+		B6B885ED16532D8100AE9434 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6B885EF16532D8100AE9434 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6B885F116532D8100AE9434 /* CarouselMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarouselMenu-Prefix.pch"; sourceTree = "<group>"; };
+		B6B885F216532D8100AE9434 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6B885F316532D8100AE9434 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6B885F516532D8100AE9434 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B6B885F716532D8100AE9434 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B6B885F916532D8100AE9434 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B6B885FC16532D8100AE9434 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B6B885FF16532D8100AE9434 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B6B8860116532D8100AE9434 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6B8860216532D8100AE9434 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6B8860B16532DAD00AE9434 /* iCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		B6B8860C16532DAD00AE9434 /* iCarousel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		B6B8860D16532DBE00AE9434 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B6B886101653320A00AE9434 /* page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6B885DC16532D8000AE9434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B8860E16532DBE00AE9434 /* QuartzCore.framework in Frameworks */,
+				B6B885E416532D8000AE9434 /* UIKit.framework in Frameworks */,
+				B6B885E616532D8000AE9434 /* Foundation.framework in Frameworks */,
+				B6B885E816532D8000AE9434 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6B885D416532D8000AE9434 = {
+			isa = PBXGroup;
+			children = (
+				B6B886201653437A00AE9434 /* iCarousel */,
+				B6B8861F1653401400AE9434 /* ImagenDemo */,
+				B6B885E916532D8000AE9434 /* CarouselMenu */,
+				B6B885E216532D8000AE9434 /* Frameworks */,
+				B6B885E016532D8000AE9434 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6B885E016532D8000AE9434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6B885DF16532D8000AE9434 /* CarouselMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6B885E216532D8000AE9434 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6B8860D16532DBE00AE9434 /* QuartzCore.framework */,
+				B6B885E316532D8000AE9434 /* UIKit.framework */,
+				B6B885E516532D8000AE9434 /* Foundation.framework */,
+				B6B885E716532D8000AE9434 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6B885E916532D8000AE9434 /* CarouselMenu */ = {
+			isa = PBXGroup;
+			children = (
+				B6B885F216532D8100AE9434 /* AppDelegate.h */,
+				B6B885F316532D8100AE9434 /* AppDelegate.m */,
+				B6B885FB16532D8100AE9434 /* MainStoryboard_iPhone.storyboard */,
+				B6B885FE16532D8100AE9434 /* MainStoryboard_iPad.storyboard */,
+				B6B8860116532D8100AE9434 /* ViewController.h */,
+				B6B8860216532D8100AE9434 /* ViewController.m */,
+				B6B885EA16532D8100AE9434 /* Supporting Files */,
+			);
+			path = CarouselMenu;
+			sourceTree = "<group>";
+		};
+		B6B885EA16532D8100AE9434 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6B885EB16532D8100AE9434 /* CarouselMenu-Info.plist */,
+				B6B885EC16532D8100AE9434 /* InfoPlist.strings */,
+				B6B885EF16532D8100AE9434 /* main.m */,
+				B6B885F116532D8100AE9434 /* CarouselMenu-Prefix.pch */,
+				B6B885F516532D8100AE9434 /* Default.png */,
+				B6B885F716532D8100AE9434 /* Default@2x.png */,
+				B6B885F916532D8100AE9434 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6B8861F1653401400AE9434 /* ImagenDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B6B886101653320A00AE9434 /* page.png */,
+			);
+			name = ImagenDemo;
+			sourceTree = "<group>";
+		};
+		B6B886201653437A00AE9434 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				B6B8860B16532DAD00AE9434 /* iCarousel.h */,
+				B6B8860C16532DAD00AE9434 /* iCarousel.m */,
+			);
+			name = iCarousel;
+			path = CarouselMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6B885DE16532D8000AE9434 /* CarouselMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B8860616532D8100AE9434 /* Build configuration list for PBXNativeTarget "CarouselMenu" */;
+			buildPhases = (
+				B6B885DB16532D8000AE9434 /* Sources */,
+				B6B885DC16532D8000AE9434 /* Frameworks */,
+				B6B885DD16532D8000AE9434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarouselMenu;
+			productName = CarouselMenu;
+			productReference = B6B885DF16532D8000AE9434 /* CarouselMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6B885D616532D8000AE9434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ricardo Guillermo Magnatera";
+			};
+			buildConfigurationList = B6B885D916532D8000AE9434 /* Build configuration list for PBXProject "CarouselMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6B885D416532D8000AE9434;
+			productRefGroup = B6B885E016532D8000AE9434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6B885DE16532D8000AE9434 /* CarouselMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6B885DD16532D8000AE9434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B885EE16532D8100AE9434 /* InfoPlist.strings in Resources */,
+				B6B885F616532D8100AE9434 /* Default.png in Resources */,
+				B6B885F816532D8100AE9434 /* Default@2x.png in Resources */,
+				B6B885FA16532D8100AE9434 /* Default-568h@2x.png in Resources */,
+				B6B885FD16532D8100AE9434 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B6B8860016532D8100AE9434 /* MainStoryboard_iPad.storyboard in Resources */,
+				B6B886111653320A00AE9434 /* page.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6B885DB16532D8000AE9434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B8860F16532DCA00AE9434 /* iCarousel.m in Sources */,
+				B6B885F016532D8100AE9434 /* main.m in Sources */,
+				B6B885F416532D8100AE9434 /* AppDelegate.m in Sources */,
+				B6B8860316532D8100AE9434 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6B885EC16532D8100AE9434 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6B885ED16532D8100AE9434 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6B885FB16532D8100AE9434 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6B885FC16532D8100AE9434 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B6B885FE16532D8100AE9434 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6B885FF16532D8100AE9434 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6B8860416532D8100AE9434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6B8860516532D8100AE9434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6B8860716532D8100AE9434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarouselMenu/CarouselMenu-Prefix.pch";
+				INFOPLIST_FILE = "CarouselMenu/CarouselMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6B8860816532D8100AE9434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarouselMenu/CarouselMenu-Prefix.pch";
+				INFOPLIST_FILE = "CarouselMenu/CarouselMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6B885D916532D8000AE9434 /* Build configuration list for PBXProject "CarouselMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B8860416532D8100AE9434 /* Debug */,
+				B6B8860516532D8100AE9434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B8860616532D8100AE9434 /* Build configuration list for PBXNativeTarget "CarouselMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B8860716532D8100AE9434 /* Debug */,
+				B6B8860816532D8100AE9434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6B885D616532D8000AE9434 /* Project object */;
+}
